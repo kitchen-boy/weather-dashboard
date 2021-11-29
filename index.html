@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <section class="flex-container">
+        <h1>Search for a City:</h1></section>
+        <form>
+            <input class="w3-input w3-border w3-round" type="text" name="search" placeholder="Search.."><br><br>
+            <button class="w3-input w3-border w3-round" >Search</button><br>
+        </form><br>
+
+        <!--search history for 6-7 cities-->
+        <!--search for a city & presented with current and future conditions for that city 
+            and that city is added to the search history-->
+            <!--click on a city in the search history, 
+                again presented with current and future conditions for that city-->
+    </section>
+    <section>
+        <!--Current weather conditions for city-->
+        <!--Section for city name, the date, an icon representation of weather conditions, 
+            the temperature, the humidity, the wind speed, and the UV index -->
+            <!--view the UV index, presented with a color that indicates 
+                whether the conditions are favorable, moderate, or severe-->
+    </section>
+    <section class="flex-container">
+        <!--Future weather conditions for that city-->
+        <!--a 5-day forecast that displays the date, an icon representation of weather conditions, 
+            the temperature, the wind speed, and the humidity-->
+        <h2>5-Day Forecast</h2>
+        <div></div>
+        <div></div>  
+        <div></div>  
+        <div></div>  
+        <div></div>          
+    </section>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
