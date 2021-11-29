@@ -14,7 +14,7 @@ input[type=text] {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 22px;
     background-color: white;
     background-image: url("https://img.icons8.com/material-outlined/20/000000/search.png");
     background-position: 10px 10px;
@@ -32,6 +32,5 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-
+    font-size: 22px;
 }
